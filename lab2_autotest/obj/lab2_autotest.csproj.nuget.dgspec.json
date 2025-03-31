@@ -54,14 +54,6 @@
               "target": "Package",
               "version": "[17.13.0, )"
             },
-            "NUnit": {
-              "target": "Package",
-              "version": "[4.3.2, )"
-            },
-            "NUnit3TestAdapter": {
-              "target": "Package",
-              "version": "[5.0.0, )"
-            },
             "Selenium.WebDriver": {
               "target": "Package",
               "version": "[4.30.0, )"
@@ -69,6 +61,16 @@
             "Selenium.WebDriver.ChromeDriver": {
               "target": "Package",
               "version": "[134.0.6998.16500, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
             }
           },
           "imports": [

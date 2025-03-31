@@ -1,26 +1,31 @@
-﻿using NUnit.Framework;
-using OpenQA.Selenium;
+﻿using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Interactions;
 using System;
+using System.Threading;
+using Xunit;
 
 namespace lab2_autotest
 {
-    [TestFixture, Parallelizable(ParallelScope.All)]
-    public class NavigationTests
+    [CollectionDefinition("Navigation Tests", DisableParallelization = false)]
+    public class NavigationTestCollection : ICollectionFixture<NavigationTests>
     {
-        ThreadLocal<IWebDriver> driver = new ThreadLocal<IWebDriver>();
+    }
 
-        [SetUp]
-        public void Setup()
+    [Collection("Navigation Tests")]
+    public class NavigationTests : IDisposable
+    {
+        private readonly IWebDriver driver;
+
+        public NavigationTests()
         {
-            driver.Value = new ChromeDriver();
-            driver.Value.Manage().Window.Maximize();
+            driver = new ChromeDriver();
+            driver.Manage().Window.Maximize();
         }
 
-        IWebDriver GetDriver() => driver.Value;
+        private IWebDriver GetDriver() => driver;
 
-        [Test, Category("Navigation")]
+        [Fact(DisplayName = "[Navigation] Verify navigation to About page")]
         public void VerifyNavigationToAboutPage()
         {
             GetDriver().Navigate().GoToUrl("https://en.ehu.lt/");
@@ -28,20 +33,23 @@ namespace lab2_autotest
             IWebElement aboutLink = GetDriver().FindElement(By.XPath("//a[text()='About']"));
             aboutLink.Click();
 
-            System.Threading.Thread.Sleep(300);
+            Thread.Sleep(300);
 
-            Assert.That(GetDriver().Url, Is.EqualTo("https://en.ehu.lt/about/"), "URL не совпал.");
-
-            // у меня на сайте нет заголовка, который у вас в примере, поэтому вставила новый
-            Assert.That(GetDriver().Title, Is.EqualTo("About"), "Заголовок страницы не тот.");
+            Assert.Equal("https://en.ehu.lt/about/", GetDriver().Url);
+            Assert.Equal("About", GetDriver().Title);
 
             IWebElement header = GetDriver().FindElement(By.XPath("//h1[@class='subheader__title']"));
-            Assert.That(header.Text, Is.EqualTo("About"), "Заголовок контента не совпадает.");
+            Assert.Equal("About", header.Text);
         }
 
-        [Test, Category("Search")]
-        [TestCase("study programs", "https://en.ehu.lt/?s=study+programs")]
-        [TestCase("faculty", "https://en.ehu.lt/?s=faculty")]
+        public static TheoryData<string, string> SearchData => new TheoryData<string, string>
+        {
+            { "study programs", "https://en.ehu.lt/?s=study+programs" },
+            { "faculty", "https://en.ehu.lt/?s=faculty" }
+        };
+
+        [Theory(DisplayName = "[Search] Verify search functionality")]
+        [MemberData(nameof(SearchData))]
         public void VerifySearchFunctionality(string searchQuery, string expectedUrl)
         {
             GetDriver().Navigate().GoToUrl("https://en.ehu.lt/");
@@ -58,60 +66,53 @@ namespace lab2_autotest
 
             Thread.Sleep(2000);
 
-            Assert.That(GetDriver().Url, Is.EqualTo(expectedUrl), "URL не совпал.");
+            Assert.Equal(expectedUrl, GetDriver().Url);
 
             IWebElement header = GetDriver().FindElement(By.XPath("//h1[@class='subheader__title']"));
-            Assert.That(header.Text, Is.EqualTo("Search results"), "Заголовок контента неверный!");
+            Assert.Equal("Search results", header.Text);
         }
 
-        [Test, Category("Localization")]
+        [Fact(DisplayName = "[Localization] Verify language switching")]
         public void VerifyLanguage()
         {
             GetDriver().Navigate().GoToUrl("https://en.ehu.lt/");
 
             IWebElement searchTrigger = GetDriver().FindElement(By.CssSelector(".language-switcher"));
-
             Actions actions = new Actions(GetDriver());
             actions.MoveToElement(searchTrigger).Perform();
 
-            System.Threading.Thread.Sleep(300);
+            Thread.Sleep(300);
 
             IWebElement LTlanguage = GetDriver().FindElement(By.XPath("//a[@href='https://lt.ehu.lt/']"));
-
             LTlanguage.Click();
 
-            System.Threading.Thread.Sleep(2000);
+            Thread.Sleep(2000);
 
-            Assert.That(GetDriver().Url, Is.EqualTo("https://lt.ehu.lt/"), "URL не совпал.");
+            Assert.Equal("https://lt.ehu.lt/", GetDriver().Url);
         }
 
-        [Test, Category("Content")]
+        [Fact(DisplayName = "[Content] Verify contact form contents")]
         public void VerifyContactForm()
         {
             GetDriver().Navigate().GoToUrl("https://en.ehu.lt/contact");
 
             IWebElement email = GetDriver().FindElement(By.XPath("//li[@plerdy-tracking-id ='35448735101']"));
-            Assert.That(email.Text, Is.EqualTo("E-mail: franciskscarynacr@gmail.com"), "Неверная почта.");
+            Assert.Equal("E-mail: franciskscarynacr@gmail.com", email.Text);
 
             IWebElement phoneLT = GetDriver().FindElement(By.XPath("//li[@plerdy-tracking-id ='50296369501']"));
-            Assert.That(phoneLT.Text, Is.EqualTo("Phone (LT): +370 68 771365"), "Содержание LT телефона не совпало.");
+            Assert.Equal("Phone (LT): +370 68 771365", phoneLT.Text);
 
             IWebElement phoneBY = GetDriver().FindElement(By.XPath("//li[@plerdy-tracking-id ='39744896801']"));
-            Assert.That(phoneBY.Text, Is.EqualTo("Phone (BY): +375 29 5781488"), "Содержание BY телефона не совпало.");
+            Assert.Equal("Phone (BY): +375 29 5781488", phoneBY.Text);
 
             IWebElement networks = GetDriver().FindElement(By.XPath("//li[@plerdy-tracking-id ='64965466401']"));
-            Assert.That(networks.Text, Is.EqualTo("Join us in the social networks: Facebook Telegram VK"), "Содержание контента не совпало.");
+            Assert.Equal("Join us in the social networks: Facebook Telegram VK", networks.Text);
         }
 
-
-        [TearDown]
-        public void Cleanup()
+        public void Dispose()
         {
-            if (driver.Value != null)
-            {
-                driver.Value.Quit();
-                driver.Value.Dispose();
-            }
+            driver.Quit();
+            driver.Dispose();
         }
     }
 }
