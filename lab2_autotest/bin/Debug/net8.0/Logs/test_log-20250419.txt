@@ -1,0 +1,64 @@
+[2025-04-19 11:59:06.676 () INF] Starting test: VerifyLanguage at "2025-04-19T11:59:06.6747131+03:00"
+[2025-04-19 11:59:06.701 () INF] Starting test: VerifySearchFunctionality("faculty","https://en.ehu.lt/?s=faculty") at "2025-04-19T11:59:06.6998178+03:00"
+[2025-04-19 11:59:06.716 () INF] Starting test: VerifyContactForm at "2025-04-19T11:59:06.7160931+03:00"
+[2025-04-19 11:59:06.994 () INF] Starting test: VerifySearchFunctionality("study programs","https://en.ehu.lt/?s=study+programs") at "2025-04-19T11:59:06.9947755+03:00"
+[2025-04-19 11:59:07.070 () INF] Test 'VerifySearchFunctionality' started with query: faculty
+[2025-04-19 11:59:07.070 () INF] Test 'VerifySearchFunctionality' started with query: study programs
+[2025-04-19 11:59:07.072 () INF] Test 'VerifyLanguage' started
+[2025-04-19 11:59:07.072 () INF] Test 'VerifyContactForm' started
+[2025-04-19 11:59:07.523 () INF] Starting test: VerifyNavigationToAboutPage at "2025-04-19T11:59:07.5237535+03:00"
+[2025-04-19 11:59:07.525 () INF] Test 'VerifyNavigationToAboutPage' started
+[2025-04-19 11:59:20.708 () INF] Test 'VerifyContactForm' passed
+[2025-04-19 11:59:20.710 () INF] Test VerifyNavigationToAboutPage completed successfully
+[2025-04-19 11:59:39.617 () INF] Test 'VerifySearchFunctionality' passed for query: study programs
+[2025-04-19 11:59:39.617 () INF] Test VerifyNavigationToAboutPage completed successfully
+[2025-04-19 11:59:42.259 () INF] Test 'VerifyLanguage' passed
+[2025-04-19 11:59:42.260 () INF] Test VerifyNavigationToAboutPage completed successfully
+[2025-04-19 11:59:42.718 () INF] Test 'VerifyNavigationToAboutPage' passed
+[2025-04-19 11:59:42.719 () INF] Test VerifyNavigationToAboutPage completed successfully
+[2025-04-19 11:59:50.416 () INF] Test 'VerifySearchFunctionality' passed for query: faculty
+[2025-04-19 11:59:50.416 () INF] Test VerifyNavigationToAboutPage completed successfully
+[2025-04-19 12:10:28.028 (16) INF] ===== Starting test: VerifySearchFunctionality("faculty","https://en.ehu.lt/?s=faculty") =====
+[2025-04-19 12:10:28.028 (19) INF] ===== Starting test: VerifySearchFunctionality("study programs","https://en.ehu.lt/?s=study+programs") =====
+[2025-04-19 12:10:28.028 (20) INF] ===== Starting test: VerifyContactForm =====
+[2025-04-19 12:10:28.028 (17) INF] ===== Starting test: VerifyNavigationToAboutPage =====
+[2025-04-19 12:10:28.028 (22) INF] ===== Starting test: VerifyLanguage =====
+[2025-04-19 12:10:36.164 (20) DBG] WebDriver initialized and window maximized
+[2025-04-19 12:10:36.291 (20) INF] Starting test: VerifyContactForm
+[2025-04-19 12:10:36.490 (19) DBG] WebDriver initialized and window maximized
+[2025-04-19 12:10:36.491 (19) INF] Starting test: VerifySearchFunctionality with query: study programs
+[2025-04-19 12:10:38.652 (16) DBG] WebDriver initialized and window maximized
+[2025-04-19 12:10:38.653 (16) INF] Starting test: VerifySearchFunctionality with query: faculty
+[2025-04-19 12:10:39.967 (22) DBG] WebDriver initialized and window maximized
+[2025-04-19 12:10:39.970 (22) INF] Starting test: VerifyLanguage
+[2025-04-19 12:10:40.504 (17) DBG] WebDriver initialized and window maximized
+[2025-04-19 12:10:40.505 (17) INF] Starting test: VerifyNavigationToAboutPage
+[2025-04-19 12:10:55.802 (20) DBG] Navigated to Contact page
+[2025-04-19 12:10:58.801 (20) INF] Test VerifyContactForm passed
+[2025-04-19 12:10:58.803 (20) INF] Test VerifyContactForm PASSED
+[2025-04-19 12:10:58.804 (20) INF] ===== Ending test: VerifyContactForm =====
+[2025-04-19 12:11:01.412 (20) DBG] WebDriver quit
+[2025-04-19 12:11:05.799 (17) DBG] Navigated to MainPage
+[2025-04-19 12:11:05.864 (22) DBG] Navigated to MainPage
+[2025-04-19 12:11:12.681 (19) DBG] Navigated to MainPage
+[2025-04-19 12:11:12.953 (17) DBG] Clicked on About link
+[2025-04-19 12:11:13.163 (17) INF] Test VerifyNavigationToAboutPage completed
+[2025-04-19 12:11:13.163 (17) INF] Test VerifyNavigationToAboutPage PASSED
+[2025-04-19 12:11:13.163 (17) INF] ===== Ending test: VerifyNavigationToAboutPage =====
+[2025-04-19 12:11:14.575 (17) DBG] WebDriver quit
+[2025-04-19 12:11:24.899 (19) DBG] Performed search with query: study programs
+[2025-04-19 12:11:24.951 (19) INF] Test VerifySearchFunctionality passed for query: study programs
+[2025-04-19 12:11:24.951 (19) INF] Test VerifySearchFunctionality("study programs","https://en.ehu.lt/?s=study+programs") PASSED
+[2025-04-19 12:11:24.951 (19) INF] ===== Ending test: VerifySearchFunctionality("study programs","https://en.ehu.lt/?s=study+programs") =====
+[2025-04-19 12:11:25.218 (16) DBG] Navigated to MainPage
+[2025-04-19 12:11:26.039 (19) DBG] WebDriver quit
+[2025-04-19 12:11:30.195 (22) DBG] Switched language to LT
+[2025-04-19 12:11:30.588 (22) INF] Test VerifyLanguage passed
+[2025-04-19 12:11:30.590 (22) INF] Test VerifyLanguage PASSED
+[2025-04-19 12:11:30.590 (22) INF] ===== Ending test: VerifyLanguage =====
+[2025-04-19 12:11:30.775 (16) DBG] Performed search with query: faculty
+[2025-04-19 12:11:30.788 (16) INF] Test VerifySearchFunctionality passed for query: faculty
+[2025-04-19 12:11:30.789 (16) INF] Test VerifySearchFunctionality("faculty","https://en.ehu.lt/?s=faculty") PASSED
+[2025-04-19 12:11:30.789 (16) INF] ===== Ending test: VerifySearchFunctionality("faculty","https://en.ehu.lt/?s=faculty") =====
+[2025-04-19 12:11:31.127 (22) DBG] WebDriver quit
+[2025-04-19 12:11:31.251 (16) DBG] WebDriver quit

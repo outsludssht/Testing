@@ -165,3 +165,9 @@ C:\Users\asusv\source\repos\lab2_autotest\lab2_autotest\bin\Debug\net8.0\ru\Micr
 C:\Users\asusv\source\repos\lab2_autotest\lab2_autotest\bin\Debug\net8.0\tr\Microsoft.Testing.Extensions.MSBuild.resources.dll
 C:\Users\asusv\source\repos\lab2_autotest\lab2_autotest\bin\Debug\net8.0\zh-Hans\Microsoft.Testing.Extensions.MSBuild.resources.dll
 C:\Users\asusv\source\repos\lab2_autotest\lab2_autotest\bin\Debug\net8.0\zh-Hant\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\Users\asusv\source\repos\lab2_autotest\lab2_autotest\bin\Debug\net8.0\FluentAssertions.dll
+C:\Users\asusv\source\repos\lab2_autotest\lab2_autotest\bin\Debug\net8.0\WebDriver.Support.dll
+C:\Users\asusv\source\repos\lab2_autotest\lab2_autotest\bin\Debug\net8.0\Serilog.dll
+C:\Users\asusv\source\repos\lab2_autotest\lab2_autotest\bin\Debug\net8.0\Serilog.Enrichers.Thread.dll
+C:\Users\asusv\source\repos\lab2_autotest\lab2_autotest\bin\Debug\net8.0\Serilog.Sinks.Console.dll
+C:\Users\asusv\source\repos\lab2_autotest\lab2_autotest\bin\Debug\net8.0\Serilog.Sinks.File.dll
