@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using OpenQA.Selenium.Support.UI;
 using System.Threading;
+using lab2_autotest.WebDriver;
 
 namespace lab2_autotest.Pages
 {

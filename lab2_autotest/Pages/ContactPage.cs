@@ -1,4 +1,5 @@
-﻿using OpenQA.Selenium;
+﻿using lab2_autotest.WebDriver;
+using OpenQA.Selenium;
 using System;
 using System.Collections.Generic;
 using System.Linq;

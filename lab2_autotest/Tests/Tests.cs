@@ -3,6 +3,7 @@ using NUnit.Framework;
 using OpenQA.Selenium;
 using lab2_autotest.Pages;
 using System.Threading;
+using lab2_autotest.WebDriver;
 
 namespace lab2_autotest.Tests
 {
@@ -44,16 +45,13 @@ namespace lab2_autotest.Tests
             main.Search(query);
             Logger.Debug("Performed search with query: {Query}", query);
 
-            // Allow time for the page to load
             Thread.Sleep(2000);
             
             var currentUrl = WebDriverSingleton.Driver.Url;
             currentUrl.Should().Contain("?s=", "URL should contain search parameter");
-            
-            // Use the actual query parameter in the URL
+
             if (query.Contains(" "))
             {
-                // If query has spaces, they'll be replaced with + in the URL
                 currentUrl.Should().Contain(query.Replace(" ", "+"), "URL should contain the search term with spaces replaced by +");
             }
             else

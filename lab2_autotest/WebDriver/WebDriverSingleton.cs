@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace lab2_autotest
+namespace lab2_autotest.WebDriver
 {
     public class WebDriverSingleton
     {

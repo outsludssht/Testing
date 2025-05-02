@@ -1,4 +1,5 @@
-﻿using NUnit.Framework;
+﻿using lab2_autotest.WebDriver;
+using NUnit.Framework;
 using OpenQA.Selenium;
 using Serilog;
 using System;

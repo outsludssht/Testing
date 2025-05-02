@@ -1,5 +1,6 @@
 using FluentAssertions;
 using lab2_autotest.Pages;
+using lab2_autotest.WebDriver;
 using OpenQA.Selenium;
 using Reqnroll;
 using System.Threading;
@@ -18,8 +19,6 @@ namespace lab2_autotest.StepDefinitions
         {
             _aboutPage = new AboutPage(_driver);
         }
-
-        #region Navigation Steps
 
         [Given(@"I am on the EHU main page")]
         public void GivenIAmOnTheEHUMainPage()
@@ -57,17 +56,11 @@ namespace lab2_autotest.StepDefinitions
             headerText.Should().Be(expectedHeader, $"Header text should be '{expectedHeader}'");
         }
 
-        #endregion
-
-        #region Search Steps
-
         [When(@"I search for ""(.*)""")]
         public void WhenISearchFor(string query)
         {
             ReqnrollHooks.Logger.Debug("Searching for: {Query}", query);
             _mainPage.Search(query);
-            
-            // Allow time for the page to load
             Thread.Sleep(2000);
         }
 
@@ -75,22 +68,14 @@ namespace lab2_autotest.StepDefinitions
         public void ThenIShouldBeRedirectedToTheSearchResultsPageWithURL(string expectedUrl)
         {
             ReqnrollHooks.Logger.Debug("Verifying search results URL");
-            
-            // First check if URL contains '?s=' which indicates a search
             _driver.Url.Should().Contain("?s=", "URL should contain search parameter");
-            
-            // Then check if the URL contains the expected search term
-            // We extract the search term from the expected URL by splitting on '='
+
             if (expectedUrl.Contains("="))
             {
                 var searchTerm = expectedUrl.Split('=')[1];
                 _driver.Url.Should().Contain(searchTerm, "URL should contain the search term");
             }
         }
-
-        #endregion
-
-        #region Language Steps
 
         [When(@"I switch the language to Lithuanian")]
         public void WhenISwitchTheLanguageToLithuanian()
@@ -105,10 +90,6 @@ namespace lab2_autotest.StepDefinitions
             ReqnrollHooks.Logger.Debug("Verifying Lithuanian website URL");
             _driver.Url.Should().Be("https://lt.ehu.lt/", "URL should match the Lithuanian language page");
         }
-
-        #endregion
-
-        #region Contact Steps
 
         [Then(@"the email information should be ""(.*)""")]
         public void ThenTheEmailInformationShouldBe(string expectedEmail)
@@ -140,7 +121,5 @@ namespace lab2_autotest.StepDefinitions
             socialText.Should().Contain("Telegram", "Social text should contain Telegram");
             socialText.Should().Contain("VK", "Social text should contain VK");
         }
-
-        #endregion
     }
-} 
+}

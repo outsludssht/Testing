@@ -4,7 +4,7 @@ using NUnit.Framework;
 [assembly: Parallelizable(ParallelScope.Fixtures)]
 [assembly: LevelOfParallelism(1)]
 
-namespace lab2_autotest
+namespace lab2_autotest.Reqnroll
 {
     [Binding]
     public class ReqnrollConfig
@@ -21,4 +21,4 @@ namespace lab2_autotest
             StepDefinitions.ReqnrollHooks.Logger.Information("Completed Feature: {FeatureTitle}", featureContext.FeatureInfo.Title);
         }
     }
-} 
+}
