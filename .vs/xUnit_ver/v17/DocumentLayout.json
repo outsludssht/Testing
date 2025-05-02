@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\asusv\\source\\repos\\lab2_autotest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D59C1F88-EBC5-4F3F-B270-63D8D9F597F1}|lab2_autotest\\lab2_autotest.csproj|c:\\users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\tests\\tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D59C1F88-EBC5-4F3F-B270-63D8D9F597F1}|lab2_autotest\\lab2_autotest.csproj|solutionrelative:lab2_autotest\\tests\\tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D59C1F88-EBC5-4F3F-B270-63D8D9F597F1}|lab2_autotest\\lab2_autotest.csproj|c:\\users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{D59C1F88-EBC5-4F3F-B270-63D8D9F597F1}|lab2_autotest\\lab2_autotest.csproj|solutionrelative:lab2_autotest\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D59C1F88-EBC5-4F3F-B270-63D8D9F597F1}|lab2_autotest\\lab2_autotest.csproj|c:\\users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\lab2_autotest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D59C1F88-EBC5-4F3F-B270-63D8D9F597F1}|lab2_autotest\\lab2_autotest.csproj|solutionrelative:lab2_autotest\\lab2_autotest.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D59C1F88-EBC5-4F3F-B270-63D8D9F597F1}|lab2_autotest\\lab2_autotest.csproj|c:\\users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\webdriversingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D59C1F88-EBC5-4F3F-B270-63D8D9F597F1}|lab2_autotest\\lab2_autotest.csproj|solutionrelative:lab2_autotest\\webdriversingleton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D59C1F88-EBC5-4F3F-B270-63D8D9F597F1}|lab2_autotest\\lab2_autotest.csproj|c:\\users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\webdriverbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D59C1F88-EBC5-4F3F-B270-63D8D9F597F1}|lab2_autotest\\lab2_autotest.csproj|solutionrelative:lab2_autotest\\webdriverbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D59C1F88-EBC5-4F3F-B270-63D8D9F597F1}|lab2_autotest\\lab2_autotest.csproj|c:\\users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\tests\\tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D59C1F88-EBC5-4F3F-B270-63D8D9F597F1}|lab2_autotest\\lab2_autotest.csproj|solutionrelative:lab2_autotest\\tests\\tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D59C1F88-EBC5-4F3F-B270-63D8D9F597F1}|lab2_autotest\\lab2_autotest.csproj|c:\\users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\global.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D59C1F88-EBC5-4F3F-B270-63D8D9F597F1}|lab2_autotest\\lab2_autotest.csproj|solutionrelative:lab2_autotest\\global.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D59C1F88-EBC5-4F3F-B270-63D8D9F597F1}|lab2_autotest\\lab2_autotest.csproj|c:\\users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\tests\\base.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,16 +35,19 @@
       "RelativeMoniker": "D:0:0:{D59C1F88-EBC5-4F3F-B270-63D8D9F597F1}|lab2_autotest\\lab2_autotest.csproj|solutionrelative:lab2_autotest\\pages\\mainpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D59C1F88-EBC5-4F3F-B270-63D8D9F597F1}|lab2_autotest\\lab2_autotest.csproj|c:\\users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\webdriverbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D59C1F88-EBC5-4F3F-B270-63D8D9F597F1}|lab2_autotest\\lab2_autotest.csproj|solutionrelative:lab2_autotest\\webdriverbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D59C1F88-EBC5-4F3F-B270-63D8D9F597F1}|lab2_autotest\\lab2_autotest.csproj|c:\\users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\pages\\contactpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D59C1F88-EBC5-4F3F-B270-63D8D9F597F1}|lab2_autotest\\lab2_autotest.csproj|solutionrelative:lab2_autotest\\pages\\contactpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D59C1F88-EBC5-4F3F-B270-63D8D9F597F1}|lab2_autotest\\lab2_autotest.csproj|c:\\users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\pages\\aboutpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D59C1F88-EBC5-4F3F-B270-63D8D9F597F1}|lab2_autotest\\lab2_autotest.csproj|solutionrelative:lab2_autotest\\pages\\aboutpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D59C1F88-EBC5-4F3F-B270-63D8D9F597F1}|lab2_autotest\\lab2_autotest.csproj|c:\\users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\pages\\contactpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D59C1F88-EBC5-4F3F-B270-63D8D9F597F1}|lab2_autotest\\lab2_autotest.csproj|solutionrelative:lab2_autotest\\pages\\contactpage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\asusv\\.nuget\\packages\\reqnroll.tools.msbuild.generation\\2.4.1\\build\\Reqnroll.Tools.MsBuild.Generation.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D59C1F88-EBC5-4F3F-B270-63D8D9F597F1}|lab2_autotest\\lab2_autotest.csproj|c:\\users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\reqnroll.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D59C1F88-EBC5-4F3F-B270-63D8D9F597F1}|lab2_autotest\\lab2_autotest.csproj|solutionrelative:lab2_autotest\\reqnroll.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +57,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,98 +69,165 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Base.cs",
-              "DocumentMoniker": "C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\Tests\\Base.cs",
-              "RelativeDocumentMoniker": "lab2_autotest\\Tests\\Base.cs",
-              "ToolTip": "C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\Tests\\Base.cs",
-              "RelativeToolTip": "lab2_autotest\\Tests\\Base.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T16:18:59.244Z",
+              "DocumentIndex": 0,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\.gitignore",
+              "RelativeDocumentMoniker": "lab2_autotest\\.gitignore",
+              "ToolTip": "C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\.gitignore",
+              "RelativeToolTip": "lab2_autotest\\.gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAG/SURBVDhPrZRNTgIxFMerDIaEhHgU97JxwUKGGaNeQJdyCY0XUBDWGhg4AB\u002BuvQk7OQCRFTP1fXWmMxUMCT94ee177eu/LVQdFK31kTSJ0WgEIa0SMJ2A6QTHcF9iicQqlYpa/6zv2\u002B2HD5nuEkWR/l4udRzHZBtjGzFor1YrPR6P9WKx0MNhpN96vTuZThyLJ1AJLK/iJFFxjBanBsXIozqkWq2qev1c1Wq19063e0ZBwBNP4JaQ6WRC/i8ajQb5wWBAvnxyghpOqQPkC8L5IEEQKjgxaqOTFsCd65tb6nmlkur1\u002BxwXCgX58KfT7QptwvCK52wrSLcJvtUKOABkQ6HFXwbGsmMRBkchzpjNphLZDSrEn5G1qnsp\u002BPEtheloXouRnXDTTjhb5tXmeyg0IgzuliHp\u002By0OANbiOCDXp1IYo3mMUxBT8/mMA/8QhGH6ZzC4Zwi5ZqoQB9M3h62I/\u002B/SAQpniBmtPvdQyGeYUdgyX8pl05eIBSxmTzQYEYbc42AuJQWLGJNQEcrJG4A4BTHneSW2sqfKOyybkxXMPbAvrx3IsyLzkPJFmUcWYtDntjG6lIvnp8cvKXNIlPoFvstpJRlQPIAAAAAASUVORK5CYII=",
+              "WhenOpened": "2025-05-02T18:31:32.606Z",
               "EditorCaption": ""
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Tests.cs",
               "DocumentMoniker": "C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\Tests\\Tests.cs",
               "RelativeDocumentMoniker": "lab2_autotest\\Tests\\Tests.cs",
               "ToolTip": "C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\Tests\\Tests.cs",
               "RelativeToolTip": "lab2_autotest\\Tests\\Tests.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAmwEAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T16:10:51.384Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WebDriverSingleton.cs",
-              "DocumentMoniker": "C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\WebDriverSingleton.cs",
-              "RelativeDocumentMoniker": "lab2_autotest\\WebDriverSingleton.cs",
-              "ToolTip": "C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\WebDriverSingleton.cs",
-              "RelativeToolTip": "lab2_autotest\\WebDriverSingleton.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-10T16:18:46.885Z",
+              "DocumentIndex": 5,
+              "Title": "global.json",
+              "DocumentMoniker": "C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\global.json",
+              "RelativeDocumentMoniker": "lab2_autotest\\global.json",
+              "ToolTip": "C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\global.json",
+              "RelativeToolTip": "lab2_autotest\\global.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-02T15:04:21.229Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "WebDriverBuilder.cs",
               "DocumentMoniker": "C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\WebDriverBuilder.cs",
               "RelativeDocumentMoniker": "lab2_autotest\\WebDriverBuilder.cs",
               "ToolTip": "C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\WebDriverBuilder.cs",
               "RelativeToolTip": "lab2_autotest\\WebDriverBuilder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T16:18:33.031Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AboutPage.cs",
-              "DocumentMoniker": "C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\Pages\\AboutPage.cs",
-              "RelativeDocumentMoniker": "lab2_autotest\\Pages\\AboutPage.cs",
-              "ToolTip": "C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\Pages\\AboutPage.cs",
-              "RelativeToolTip": "lab2_autotest\\Pages\\AboutPage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "WebDriverSingleton.cs",
+              "DocumentMoniker": "C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\WebDriverSingleton.cs",
+              "RelativeDocumentMoniker": "lab2_autotest\\WebDriverSingleton.cs",
+              "ToolTip": "C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\WebDriverSingleton.cs",
+              "RelativeToolTip": "lab2_autotest\\WebDriverSingleton.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T08:07:55.812Z",
+              "WhenOpened": "2025-04-10T16:18:46.885Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Base.cs",
+              "DocumentMoniker": "C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\Tests\\Base.cs",
+              "RelativeDocumentMoniker": "lab2_autotest\\Tests\\Base.cs",
+              "ToolTip": "C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\Tests\\Base.cs",
+              "RelativeToolTip": "lab2_autotest\\Tests\\Base.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-10T16:18:59.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "ContactPage.cs",
               "DocumentMoniker": "C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\Pages\\ContactPage.cs",
               "RelativeDocumentMoniker": "lab2_autotest\\Pages\\ContactPage.cs",
               "ToolTip": "C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\Pages\\ContactPage.cs",
               "RelativeToolTip": "lab2_autotest\\Pages\\ContactPage.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAABOAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAUwBkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T16:16:38.134Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
+              "Title": "AboutPage.cs",
+              "DocumentMoniker": "C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\Pages\\AboutPage.cs",
+              "RelativeDocumentMoniker": "lab2_autotest\\Pages\\AboutPage.cs",
+              "ToolTip": "C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\Pages\\AboutPage.cs",
+              "RelativeToolTip": "lab2_autotest\\Pages\\AboutPage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-19T08:07:55.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "MainPage.cs",
               "DocumentMoniker": "C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\Pages\\MainPage.cs",
               "RelativeDocumentMoniker": "lab2_autotest\\Pages\\MainPage.cs",
               "ToolTip": "C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\Pages\\MainPage.cs",
               "RelativeToolTip": "lab2_autotest\\Pages\\MainPage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwCYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-10T16:16:24.034Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "lab2_autotest.csproj",
+              "DocumentMoniker": "C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\lab2_autotest.csproj",
+              "RelativeDocumentMoniker": "lab2_autotest\\lab2_autotest.csproj",
+              "ToolTip": "C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\lab2_autotest.csproj",
+              "RelativeToolTip": "lab2_autotest\\lab2_autotest.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-02T14:56:28.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "reqnroll.json",
+              "DocumentMoniker": "C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\reqnroll.json",
+              "RelativeDocumentMoniker": "lab2_autotest\\reqnroll.json",
+              "ToolTip": "C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\reqnroll.json",
+              "RelativeToolTip": "lab2_autotest\\reqnroll.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-02T15:08:58.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Reqnroll.Tools.MsBuild.Generation.targets",
+              "DocumentMoniker": "C:\\Users\\asusv\\.nuget\\packages\\reqnroll.tools.msbuild.generation\\2.4.1\\build\\Reqnroll.Tools.MsBuild.Generation.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\.nuget\\packages\\reqnroll.tools.msbuild.generation\\2.4.1\\build\\Reqnroll.Tools.MsBuild.Generation.targets",
+              "ToolTip": "C:\\Users\\asusv\\.nuget\\packages\\reqnroll.tools.msbuild.generation\\2.4.1\\build\\Reqnroll.Tools.MsBuild.Generation.targets",
+              "RelativeToolTip": "..\\..\\..\\.nuget\\packages\\reqnroll.tools.msbuild.generation\\2.4.1\\build\\Reqnroll.Tools.MsBuild.Generation.targets",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAewFwAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-05-02T17:55:13.814Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             }
           ]
         }
