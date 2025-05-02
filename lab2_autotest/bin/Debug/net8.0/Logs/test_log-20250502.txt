@@ -130,3 +130,90 @@
 [2025-05-02 21:26:14.180 (19) INF] Test VerifyLanguage PASSED
 [2025-05-02 21:26:14.181 (19) INF] ===== Ending test: VerifyLanguage =====
 [2025-05-02 21:26:14.373 (19) DBG] WebDriver quit
+[2025-05-02 21:53:38.673 (14) INF] ===== Starting test: VerifyContactForm =====
+[2025-05-02 21:53:39.983 (14) DBG] WebDriver initialized and window maximized
+[2025-05-02 21:53:39.984 (14) INF] Starting test: VerifyContactForm
+[2025-05-02 21:53:47.859 (14) DBG] Navigated to Contact page
+[2025-05-02 21:53:47.930 (14) INF] Test VerifyContactForm passed
+[2025-05-02 21:53:47.931 (14) INF] Test VerifyContactForm PASSED
+[2025-05-02 21:53:47.931 (14) INF] ===== Ending test: VerifyContactForm =====
+[2025-05-02 21:53:48.069 (14) DBG] WebDriver quit
+[2025-05-02 21:53:48.070 (14) INF] ===== Starting test: VerifyLanguage =====
+[2025-05-02 21:53:49.383 (14) DBG] WebDriver initialized and window maximized
+[2025-05-02 21:53:49.384 (14) INF] Starting test: VerifyLanguage
+[2025-05-02 21:54:25.111 (14) DBG] Navigated to MainPage
+[2025-05-02 21:54:38.556 (14) DBG] Switched language to LT
+[2025-05-02 21:54:38.661 (14) INF] Test VerifyLanguage passed
+[2025-05-02 21:54:38.661 (14) INF] Test VerifyLanguage PASSED
+[2025-05-02 21:54:38.661 (14) INF] ===== Ending test: VerifyLanguage =====
+[2025-05-02 21:54:38.864 (14) DBG] WebDriver quit
+[2025-05-02 21:54:38.865 (14) INF] ===== Starting test: VerifyNavigationToAboutPage =====
+[2025-05-02 21:54:40.209 (14) DBG] WebDriver initialized and window maximized
+[2025-05-02 21:54:40.209 (14) INF] Starting test: VerifyNavigationToAboutPage
+[2025-05-02 21:54:51.988 (14) DBG] Navigated to MainPage
+[2025-05-02 21:54:52.950 (14) DBG] Clicked on About link
+[2025-05-02 21:54:52.986 (14) INF] Test VerifyNavigationToAboutPage completed
+[2025-05-02 21:54:52.986 (14) INF] Test VerifyNavigationToAboutPage PASSED
+[2025-05-02 21:54:52.986 (14) INF] ===== Ending test: VerifyNavigationToAboutPage =====
+[2025-05-02 21:54:53.165 (14) DBG] WebDriver quit
+[2025-05-02 21:54:53.166 (14) INF] ===== Starting test: VerifySearchFunctionality("study programs","https://en.ehu.lt/?s=study+programs") =====
+[2025-05-02 21:54:54.520 (14) DBG] WebDriver initialized and window maximized
+[2025-05-02 21:54:54.521 (14) INF] Starting test: VerifySearchFunctionality with query: study programs
+[2025-05-02 21:55:02.892 (14) DBG] Navigated to MainPage
+[2025-05-02 21:55:06.682 (14) DBG] Performed search with query: study programs
+[2025-05-02 21:55:06.696 (14) INF] Test VerifySearchFunctionality passed for query: study programs
+[2025-05-02 21:55:06.696 (14) INF] Test VerifySearchFunctionality("study programs","https://en.ehu.lt/?s=study+programs") PASSED
+[2025-05-02 21:55:06.696 (14) INF] ===== Ending test: VerifySearchFunctionality("study programs","https://en.ehu.lt/?s=study+programs") =====
+[2025-05-02 21:55:06.923 (14) DBG] WebDriver quit
+[2025-05-02 21:55:06.923 (14) INF] ===== Starting test: VerifySearchFunctionality("faculty","https://en.ehu.lt/?s=faculty") =====
+[2025-05-02 21:55:08.311 (14) DBG] WebDriver initialized and window maximized
+[2025-05-02 21:55:08.311 (14) INF] Starting test: VerifySearchFunctionality with query: faculty
+[2025-05-02 21:55:18.153 (14) DBG] Navigated to MainPage
+[2025-05-02 21:55:18.714 (14) DBG] Performed search with query: faculty
+[2025-05-02 21:55:22.802 (14) ERR] Test VerifySearchFunctionality("faculty","https://en.ehu.lt/?s=faculty") FAILED: Expected currentUrl to be "https://en.ehu.lt/?s=faculty" with a length of 28 because URL should match the expected search results URL, but "https://en.ehu.lt/" has a length of 18, differs near "/" (index 17).
+[2025-05-02 21:55:22.802 (14) INF] ===== Ending test: VerifySearchFunctionality("faculty","https://en.ehu.lt/?s=faculty") =====
+[2025-05-02 21:55:23.035 (14) DBG] WebDriver quit
+[2025-05-02 21:59:44.206 (14) INF] ===== Starting test: VerifyContactForm =====
+[2025-05-02 21:59:45.606 (14) DBG] WebDriver initialized and window maximized
+[2025-05-02 21:59:45.607 (14) INF] Starting test: VerifyContactForm
+[2025-05-02 21:59:54.393 (14) DBG] Navigated to Contact page
+[2025-05-02 21:59:54.465 (14) INF] Test VerifyContactForm passed
+[2025-05-02 21:59:54.467 (14) INF] Test VerifyContactForm PASSED
+[2025-05-02 21:59:54.467 (14) INF] ===== Ending test: VerifyContactForm =====
+[2025-05-02 21:59:54.592 (14) DBG] WebDriver quit
+[2025-05-02 21:59:54.592 (14) INF] ===== Starting test: VerifyLanguage =====
+[2025-05-02 21:59:55.962 (14) DBG] WebDriver initialized and window maximized
+[2025-05-02 21:59:55.963 (14) INF] Starting test: VerifyLanguage
+[2025-05-02 22:00:16.335 (14) DBG] Navigated to MainPage
+[2025-05-02 22:00:29.628 (14) DBG] Switched language to LT
+[2025-05-02 22:00:29.761 (14) INF] Test VerifyLanguage passed
+[2025-05-02 22:00:29.762 (14) INF] Test VerifyLanguage PASSED
+[2025-05-02 22:00:29.762 (14) INF] ===== Ending test: VerifyLanguage =====
+[2025-05-02 22:00:30.048 (14) DBG] WebDriver quit
+[2025-05-02 22:00:30.049 (14) INF] ===== Starting test: VerifyNavigationToAboutPage =====
+[2025-05-02 22:00:31.431 (14) DBG] WebDriver initialized and window maximized
+[2025-05-02 22:00:31.431 (14) INF] Starting test: VerifyNavigationToAboutPage
+[2025-05-02 22:00:47.148 (14) DBG] Navigated to MainPage
+[2025-05-02 22:00:51.406 (14) DBG] Clicked on About link
+[2025-05-02 22:00:51.478 (14) INF] Test VerifyNavigationToAboutPage completed
+[2025-05-02 22:00:51.479 (14) INF] Test VerifyNavigationToAboutPage PASSED
+[2025-05-02 22:00:51.479 (14) INF] ===== Ending test: VerifyNavigationToAboutPage =====
+[2025-05-02 22:00:51.649 (14) DBG] WebDriver quit
+[2025-05-02 22:00:51.649 (14) INF] ===== Starting test: VerifySearchFunctionality("study programs") =====
+[2025-05-02 22:00:53.028 (14) DBG] WebDriver initialized and window maximized
+[2025-05-02 22:00:53.028 (14) INF] Starting test: VerifySearchFunctionality with query: study programs
+[2025-05-02 22:01:12.317 (14) DBG] Navigated to MainPage
+[2025-05-02 22:01:14.472 (14) DBG] Performed search with query: study programs
+[2025-05-02 22:01:16.497 (14) INF] Test VerifySearchFunctionality passed for query: study programs
+[2025-05-02 22:01:16.497 (14) INF] Test VerifySearchFunctionality("study programs") PASSED
+[2025-05-02 22:01:16.497 (14) INF] ===== Ending test: VerifySearchFunctionality("study programs") =====
+[2025-05-02 22:01:16.651 (14) DBG] WebDriver quit
+[2025-05-02 22:01:16.652 (14) INF] ===== Starting test: VerifySearchFunctionality("faculty") =====
+[2025-05-02 22:01:18.016 (14) DBG] WebDriver initialized and window maximized
+[2025-05-02 22:01:18.016 (14) INF] Starting test: VerifySearchFunctionality with query: faculty
+[2025-05-02 22:01:31.302 (14) DBG] Navigated to MainPage
+[2025-05-02 22:01:35.872 (14) DBG] Performed search with query: faculty
+[2025-05-02 22:01:37.894 (14) INF] Test VerifySearchFunctionality passed for query: faculty
+[2025-05-02 22:01:37.894 (14) INF] Test VerifySearchFunctionality("faculty") PASSED
+[2025-05-02 22:01:37.894 (14) INF] ===== Ending test: VerifySearchFunctionality("faculty") =====
+[2025-05-02 22:01:38.068 (14) DBG] WebDriver quit

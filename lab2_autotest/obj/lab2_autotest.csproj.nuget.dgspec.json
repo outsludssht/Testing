@@ -50,6 +50,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "DotNetSeleniumExtras.WaitHelpers": {
+              "target": "Package",
+              "version": "[3.11.0, )"
+            },
             "FluentAssertions": {
               "target": "Package",
               "version": "[8.2.0, )"
@@ -65,6 +69,18 @@
             "NUnit3TestAdapter": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "Reqnroll": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Reqnroll.NUnit": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Reqnroll.Tools.MsBuild.Generation": {
+              "target": "Package",
+              "version": "[1.0.1, )"
             },
             "Selenium.Support": {
               "target": "Package",

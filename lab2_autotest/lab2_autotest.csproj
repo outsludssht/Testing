@@ -7,10 +7,14 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<PackageReference Include="DotNetSeleniumExtras.WaitHelpers" Version="3.11.0" />
 		<PackageReference Include="FluentAssertions" Version="8.2.0" />
 		<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.13.0" />
 		<PackageReference Include="NUnit" Version="4.3.2" />
 		<PackageReference Include="NUnit3TestAdapter" Version="5.0.0" />
+		<PackageReference Include="Reqnroll" Version="1.0.1" />
+		<PackageReference Include="Reqnroll.NUnit" Version="1.0.1" />
+		<PackageReference Include="Reqnroll.Tools.MsBuild.Generation" Version="1.0.1" />
 		<PackageReference Include="Selenium.Support" Version="4.31.0" />
 		<PackageReference Include="Selenium.WebDriver" Version="4.31.0" />
 		<PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="135.0.7049.9500" />
@@ -18,6 +22,11 @@
 		<PackageReference Include="Serilog.Enrichers.Thread" Version="4.0.0" />
 		<PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
 		<PackageReference Include="Serilog.Sinks.File" Version="6.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<Folder Include="Features\" />
+		<Folder Include="StepDefinitions\" />
 	</ItemGroup>
 
 </Project>

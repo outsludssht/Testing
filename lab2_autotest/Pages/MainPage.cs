@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using OpenQA.Selenium.Support.UI;
+using System.Threading;
 
 namespace lab2_autotest.Pages
 {
@@ -24,10 +26,33 @@ namespace lab2_autotest.Pages
 
         public void Search(string query)
         {
-            new Actions(driver).MoveToElement(driver.FindElement(SearchIconLocator)).Perform();
-            var searchBox = driver.FindElement(SearchInputLocator);
-            searchBox.SendKeys(query);
-            searchBox.SendKeys(Keys.Enter);
+            try
+            {
+                var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(10));
+                var searchIcon = wait.Until(SeleniumExtras.WaitHelpers.ExpectedConditions.ElementToBeClickable(SearchIconLocator));
+                searchIcon.Click();     
+                searchBox.Clear();
+                searchBox.SendKeys(query);
+                searchBox.Submit();
+                wait.Until(driver => driver.Url.Contains("?s="));
+            }
+            catch (Exception ex)
+            {
+                StepDefinitions.ReqnrollHooks.Logger.Warning("Exception during search: {Exception}. Using fallback approach.", ex.Message);
+                
+                new Actions(driver)
+                    .MoveToElement(driver.FindElement(SearchIconLocator))
+                    .Click()
+                    .Pause(TimeSpan.FromSeconds(1))
+                    .Perform();
+                
+                var searchBox = driver.FindElement(SearchInputLocator);
+                searchBox.Clear();
+                searchBox.SendKeys(query);
+                searchBox.SendKeys(Keys.Enter);
+                
+                Thread.Sleep(2000);
+            }
         }
 
         public void SwitchLanguageToLT()

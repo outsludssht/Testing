@@ -1,0 +1,94 @@
+[2025-05-02 21:52:08.719 (18) INF] Starting test execution
+[2025-05-02 21:52:08.751 (14) INF] Starting Feature: EHU Website Functionality
+[2025-05-02 21:52:08.765 (14) INF] ===== Starting scenario: Navigate to About page =====
+[2025-05-02 21:52:10.366 (14) DBG] WebDriver initialized and window maximized
+[2025-05-02 21:52:10.392 (14) DBG] Navigating to EHU main page
+[2025-05-02 21:52:23.598 (14) DBG] Clicking on About link
+[2025-05-02 21:52:24.822 (14) DBG] Verifying URL of About page
+[2025-05-02 21:52:24.870 (14) DBG] Verifying page header text
+[2025-05-02 21:52:24.905 (14) INF] Scenario Navigate to About page PASSED
+[2025-05-02 21:52:24.906 (14) INF] ===== Ending scenario: Navigate to About page =====
+[2025-05-02 21:52:25.235 (14) DBG] WebDriver quit
+[2025-05-02 21:52:25.241 (14) INF] ===== Starting scenario: Search for content on the website =====
+[2025-05-02 21:52:26.560 (14) DBG] WebDriver initialized and window maximized
+[2025-05-02 21:52:26.560 (14) DBG] Navigating to EHU main page
+[2025-05-02 21:52:42.013 (14) DBG] Searching for: study programs
+[2025-05-02 21:52:42.554 (14) DBG] Verifying search results URL
+[2025-05-02 21:52:46.166 (14) ERR] Scenario Search for content on the website FAILED: Expected _driver.Url to be "https://en.ehu.lt/?s=study+programs" with a length of 35 because URL should match the expected search results URL, but "https://en.ehu.lt/" has a length of 18, differs near "/" (index 17).
+[2025-05-02 21:52:46.183 (14) INF] ===== Ending scenario: Search for content on the website =====
+[2025-05-02 21:52:46.350 (14) DBG] WebDriver quit
+[2025-05-02 21:52:46.350 (14) INF] ===== Starting scenario: Search for content on the website =====
+[2025-05-02 21:52:47.736 (14) DBG] WebDriver initialized and window maximized
+[2025-05-02 21:52:47.736 (14) DBG] Navigating to EHU main page
+[2025-05-02 21:53:02.888 (14) DBG] Searching for: faculty
+[2025-05-02 21:53:05.290 (14) DBG] Verifying search results URL
+[2025-05-02 21:53:05.302 (14) INF] Scenario Search for content on the website PASSED
+[2025-05-02 21:53:05.302 (14) INF] ===== Ending scenario: Search for content on the website =====
+[2025-05-02 21:53:05.477 (14) DBG] WebDriver quit
+[2025-05-02 21:53:05.481 (14) INF] ===== Starting scenario: Switch language to Lithuanian =====
+[2025-05-02 21:53:06.852 (14) DBG] WebDriver initialized and window maximized
+[2025-05-02 21:53:06.853 (14) DBG] Navigating to EHU main page
+[2025-05-02 21:53:24.965 (14) DBG] Switching language to Lithuanian
+[2025-05-02 21:53:33.024 (14) DBG] Verifying Lithuanian website URL
+[2025-05-02 21:53:33.091 (14) INF] Scenario Switch language to Lithuanian PASSED
+[2025-05-02 21:53:33.091 (14) INF] ===== Ending scenario: Switch language to Lithuanian =====
+[2025-05-02 21:53:33.308 (14) DBG] WebDriver quit
+[2025-05-02 21:53:33.309 (14) INF] ===== Starting scenario: Verify contact information =====
+[2025-05-02 21:53:34.675 (14) DBG] WebDriver initialized and window maximized
+[2025-05-02 21:53:34.675 (14) DBG] Navigating to EHU contact page
+[2025-05-02 21:53:38.453 (14) DBG] Verifying email information
+[2025-05-02 21:53:38.476 (14) DBG] Verifying Lithuanian phone number
+[2025-05-02 21:53:38.497 (14) DBG] Verifying Belarusian phone number
+[2025-05-02 21:53:38.515 (14) DBG] Verifying social media text
+[2025-05-02 21:53:38.530 (14) INF] Scenario Verify contact information PASSED
+[2025-05-02 21:53:38.530 (14) INF] ===== Ending scenario: Verify contact information =====
+[2025-05-02 21:53:38.669 (14) DBG] WebDriver quit
+[2025-05-02 21:53:38.671 (14) INF] Completed Feature: EHU Website Functionality
+[2025-05-02 21:55:23.040 (16) INF] Test execution completed
+[2025-05-02 21:58:05.336 (18) INF] Starting test execution
+[2025-05-02 21:58:05.368 (14) INF] Starting Feature: EHU Website Functionality
+[2025-05-02 21:58:05.384 (14) INF] ===== Starting scenario: Navigate to About page =====
+[2025-05-02 21:58:06.953 (14) DBG] WebDriver initialized and window maximized
+[2025-05-02 21:58:06.974 (14) DBG] Navigating to EHU main page
+[2025-05-02 21:58:26.559 (14) DBG] Clicking on About link
+[2025-05-02 21:58:30.148 (14) DBG] Verifying URL of About page
+[2025-05-02 21:58:30.179 (14) DBG] Verifying page header text
+[2025-05-02 21:58:30.219 (14) INF] Scenario Navigate to About page PASSED
+[2025-05-02 21:58:30.220 (14) INF] ===== Ending scenario: Navigate to About page =====
+[2025-05-02 21:58:30.529 (14) DBG] WebDriver quit
+[2025-05-02 21:58:30.535 (14) INF] ===== Starting scenario: Search for content on the website =====
+[2025-05-02 21:58:31.899 (14) DBG] WebDriver initialized and window maximized
+[2025-05-02 21:58:31.900 (14) DBG] Navigating to EHU main page
+[2025-05-02 21:58:44.868 (14) DBG] Searching for: study programs
+[2025-05-02 21:58:49.008 (14) DBG] Verifying search results URL
+[2025-05-02 21:58:49.021 (14) INF] Scenario Search for content on the website PASSED
+[2025-05-02 21:58:49.021 (14) INF] ===== Ending scenario: Search for content on the website =====
+[2025-05-02 21:58:49.255 (14) DBG] WebDriver quit
+[2025-05-02 21:58:49.257 (14) INF] ===== Starting scenario: Search for content on the website =====
+[2025-05-02 21:58:50.589 (14) DBG] WebDriver initialized and window maximized
+[2025-05-02 21:58:50.590 (14) DBG] Navigating to EHU main page
+[2025-05-02 21:59:04.419 (14) DBG] Searching for: faculty
+[2025-05-02 21:59:08.670 (14) DBG] Verifying search results URL
+[2025-05-02 21:59:08.678 (14) INF] Scenario Search for content on the website PASSED
+[2025-05-02 21:59:08.678 (14) INF] ===== Ending scenario: Search for content on the website =====
+[2025-05-02 21:59:08.847 (14) DBG] WebDriver quit
+[2025-05-02 21:59:08.850 (14) INF] ===== Starting scenario: Switch language to Lithuanian =====
+[2025-05-02 21:59:10.159 (14) DBG] WebDriver initialized and window maximized
+[2025-05-02 21:59:10.159 (14) DBG] Navigating to EHU main page
+[2025-05-02 21:59:23.051 (14) DBG] Switching language to Lithuanian
+[2025-05-02 21:59:36.526 (14) DBG] Verifying Lithuanian website URL
+[2025-05-02 21:59:36.642 (14) INF] Scenario Switch language to Lithuanian PASSED
+[2025-05-02 21:59:36.643 (14) INF] ===== Ending scenario: Switch language to Lithuanian =====
+[2025-05-02 21:59:36.897 (14) DBG] WebDriver quit
+[2025-05-02 21:59:36.899 (14) INF] ===== Starting scenario: Verify contact information =====
+[2025-05-02 21:59:38.219 (14) DBG] WebDriver initialized and window maximized
+[2025-05-02 21:59:38.220 (14) DBG] Navigating to EHU contact page
+[2025-05-02 21:59:44.001 (14) DBG] Verifying email information
+[2025-05-02 21:59:44.028 (14) DBG] Verifying Lithuanian phone number
+[2025-05-02 21:59:44.045 (14) DBG] Verifying Belarusian phone number
+[2025-05-02 21:59:44.062 (14) DBG] Verifying social media text
+[2025-05-02 21:59:44.076 (14) INF] Scenario Verify contact information PASSED
+[2025-05-02 21:59:44.076 (14) INF] ===== Ending scenario: Verify contact information =====
+[2025-05-02 21:59:44.200 (14) DBG] WebDriver quit
+[2025-05-02 21:59:44.204 (14) INF] Completed Feature: EHU Website Functionality
+[2025-05-02 22:01:38.070 (16) INF] Test execution completed

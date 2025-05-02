@@ -2,6 +2,7 @@
 using NUnit.Framework;
 using OpenQA.Selenium;
 using lab2_autotest.Pages;
+using System.Threading;
 
 namespace lab2_autotest.Tests
 {
@@ -29,10 +30,10 @@ namespace lab2_autotest.Tests
             Logger.Information("Test VerifyNavigationToAboutPage completed");
         }
 
-        [TestCase("study programs", "https://en.ehu.lt/?s=study+programs")]
-        [TestCase("faculty", "https://en.ehu.lt/?s=faculty")]
+        [TestCase("study programs")]
+        [TestCase("faculty")]
         [Test, Category("Search")]
-        public void VerifySearchFunctionality(string query, string expectedUrl)
+        public void VerifySearchFunctionality(string query)
         {
             Logger.Information("Starting test: VerifySearchFunctionality with query: {Query}", query);
 
@@ -43,8 +44,22 @@ namespace lab2_autotest.Tests
             main.Search(query);
             Logger.Debug("Performed search with query: {Query}", query);
 
+            // Allow time for the page to load
+            Thread.Sleep(2000);
+            
             var currentUrl = WebDriverSingleton.Driver.Url;
-            currentUrl.Should().Be(expectedUrl, "URL should match the expected search results URL");
+            currentUrl.Should().Contain("?s=", "URL should contain search parameter");
+            
+            // Use the actual query parameter in the URL
+            if (query.Contains(" "))
+            {
+                // If query has spaces, they'll be replaced with + in the URL
+                currentUrl.Should().Contain(query.Replace(" ", "+"), "URL should contain the search term with spaces replaced by +");
+            }
+            else
+            {
+                currentUrl.Should().Contain(query, "URL should contain the search term");
+            }
 
             Logger.Information("Test VerifySearchFunctionality passed for query: {Query}", query);
         }

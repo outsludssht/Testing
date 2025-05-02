@@ -17,6 +17,7 @@ namespace lab2_autotest.Pages
             this.driver = driver;
         }
 
+        public void Open() => driver.Navigate().GoToUrl("https://en.ehu.lt/about/");
         public string GetHeaderText() => driver.FindElement(HeaderLocator).Text;
     }
 }

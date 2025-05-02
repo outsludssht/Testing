@@ -6,13 +6,13 @@ using System.Diagnostics;
 using global::System.Runtime.CompilerServices;
 using System.Threading.Tasks;
 
-[GeneratedCode("Reqnroll", "2.4.1")]
+[GeneratedCode("Reqnroll", "1.0.1")]
 [global::NUnit.Framework.SetUpFixture]
-public static class lab2_autotest_NUnitAssemblyHooks
+public class lab2_autotest_NUnitAssemblyHooks
 {
     [global::NUnit.Framework.OneTimeSetUp]
     [MethodImpl(MethodImplOptions.NoInlining)]
-    public static async Task AssemblyInitializeAsync()
+    public async Task AssemblyInitializeAsync()
     {
         var currentAssembly = typeof(lab2_autotest_NUnitAssemblyHooks).Assembly;
         await global::Reqnroll.TestRunnerManager.OnTestRunStartAsync(currentAssembly);
@@ -20,7 +20,7 @@ public static class lab2_autotest_NUnitAssemblyHooks
 
     [global::NUnit.Framework.OneTimeTearDown]
     [MethodImpl(MethodImplOptions.NoInlining)]
-    public static async ValueTask AssemblyCleanupAsync()
+    public async ValueTask AssemblyCleanupAsync()
     {
         var currentAssembly = typeof(lab2_autotest_NUnitAssemblyHooks).Assembly;
         await global::Reqnroll.TestRunnerManager.OnTestRunEndAsync(currentAssembly);
