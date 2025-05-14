@@ -1,0 +1,11 @@
+﻿{
+    "allure": {
+        "report": {
+            "title": "Allure Report"
+        },
+        "test": {
+            "status": "passed"
+        }
+    }
+}
+

@@ -1,0 +1,83 @@
+{
+  "uuid": "544017a2-77f5-4edd-a82a-d49a3132c682-tr-0-1001",
+  "historyId": "lab2_autotest.Tests.NavigationTests.VerifyNavigationToAboutPage",
+  "fullName": "lab2_autotest.Tests.NavigationTests.VerifyNavigationToAboutPage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NUnit.Fw.ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-ID4PO4S9"
+    },
+    {
+      "name": "package",
+      "value": "lab2_autotest.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "VerifyNavigationToAboutPage"
+    },
+    {
+      "name": "testClass",
+      "value": "NavigationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Navigation"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "suite",
+      "value": "Navigation Tests"
+    }
+  ],
+  "links": [],
+  "name": "VerifyNavigationToAboutPage",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "VerifyNavigationToAboutPage"
+  },
+  "stage": "finished",
+  "description": "This test should pass.",
+  "steps": [
+    {
+      "name": "VerifyNavigationToAboutPage",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": ""
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Custom Message",
+          "source": "4a7908ad03394ab289c0c03803bf578a-attachment.txt",
+          "type": "text/plain"
+        },
+        {
+          "name": "Console Output",
+          "source": "51769116cb364e988b28648b57a677f7-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1747234708248,
+      "stop": 1747234731450
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1747234708248,
+  "stop": 1747234731451
+}

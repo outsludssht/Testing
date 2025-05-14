@@ -5,37 +5,36 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using lab2_autotest.WebDriver;
 
 namespace lab2_autotest.Pages
 {
     internal class MainPage
     {
         private readonly IWebDriver driver = WebDriverSingleton.Driver;
+        private By AboutLinkLocator => By.XPath("//a[text()='About']");
+        private By HeaderLocator => By.XPath("//h1[@class='subheader__title']");
+        private By SearchIconLocator => By.CssSelector(".header-search");
+        private By SearchInputLocator => By.Name("s");
+        private By LanguageSwitcherLocator => By.CssSelector(".language-switcher");
+        private By LithuanianLinkLocator => By.XPath("//a[@href='https://lt.ehu.lt/']");
 
         public void Open() => driver.Navigate().GoToUrl("https://en.ehu.lt/");
-
-        public void ClickAbout()
-        {
-            var aboutLink = driver.FindElement(By.XPath("//a[text()='About']"));
-            aboutLink.Click();
-        }
-        public string GetHeaderText()
-        {
-            return driver.FindElement(By.XPath("//h1[@class='subheader__title']")).Text;
-        }
+        public void ClickAbout() => driver.FindElement(AboutLinkLocator).Click();
+        public string GetHeaderText() => driver.FindElement(HeaderLocator).Text;
 
         public void Search(string query)
         {
-            new Actions(driver).MoveToElement(driver.FindElement(By.CssSelector(".header-search"))).Perform();
-            var box = driver.FindElement(By.Name("s"));
-            box.SendKeys(query);
-            box.SendKeys(Keys.Enter);
+            new Actions(driver).MoveToElement(driver.FindElement(SearchIconLocator)).Perform();
+            var searchBox = driver.FindElement(SearchInputLocator);
+            searchBox.SendKeys(query);
+            searchBox.SendKeys(Keys.Enter);
         }
 
         public void SwitchLanguageToLT()
         {
-            new Actions(driver).MoveToElement(driver.FindElement(By.CssSelector(".language-switcher"))).Perform();
-            driver.FindElement(By.XPath("//a[@href='https://lt.ehu.lt/']")).Click();
+            new Actions(driver).MoveToElement(driver.FindElement(LanguageSwitcherLocator)).Perform();
+            driver.FindElement(LithuanianLinkLocator).Click();
         }
     }
 }

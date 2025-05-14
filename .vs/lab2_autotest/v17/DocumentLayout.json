@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\asusv\\source\\repos\\lab2_autotest\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D59C1F88-EBC5-4F3F-B270-63D8D9F597F1}|lab2_autotest\\lab2_autotest.csproj|c:\\users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D59C1F88-EBC5-4F3F-B270-63D8D9F597F1}|lab2_autotest\\lab2_autotest.csproj|solutionrelative:lab2_autotest\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:lab2_autotest\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -25,10 +25,6 @@
               "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Class1.cs",
@@ -36,10 +32,16 @@
               "RelativeDocumentMoniker": "lab2_autotest\\Class1.cs",
               "ToolTip": "C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\Class1.cs",
               "RelativeToolTip": "lab2_autotest\\Class1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T14:51:52.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-28T14:51:52.217Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
             }
           ]
         }

@@ -94,11 +94,6 @@ C:\Users\asusv\source\repos\lab2_autotest\lab2_autotest\bin\Debug\net8.0\zh-Hant
 C:\Users\asusv\source\repos\lab2_autotest\lab2_autotest\obj\Debug\net8.0\lab2_aut.AD3B76DF.Up2Date
 C:\Users\asusv\source\repos\lab2_autotest\lab2_autotest\obj\Debug\net8.0\lab2_autotest.genruntimeconfig.cache
 C:\Users\asusv\source\repos\lab2_autotest\lab2_autotest\obj\Debug\net8.0\lab2_autotest.sourcelink.json
-C:\Users\asusv\source\repos\lab2_autotest\lab2_autotest\bin\Debug\net8.0\xunit.abstractions.dll
-C:\Users\asusv\source\repos\lab2_autotest\lab2_autotest\bin\Debug\net8.0\xunit.runner.visualstudio.testadapter.dll
-C:\Users\asusv\source\repos\lab2_autotest\lab2_autotest\bin\Debug\net8.0\xunit.assert.dll
-C:\Users\asusv\source\repos\lab2_autotest\lab2_autotest\bin\Debug\net8.0\xunit.core.dll
-C:\Users\asusv\source\repos\lab2_autotest\lab2_autotest\bin\Debug\net8.0\xunit.execution.dotnet.dll
 C:\Users\asusv\source\repos\lab2_autotest\lab2_autotest\bin\Debug\net8.0\NUnit3.TestAdapter.pdb
 C:\Users\asusv\source\repos\lab2_autotest\lab2_autotest\bin\Debug\net8.0\nunit.engine.dll
 C:\Users\asusv\source\repos\lab2_autotest\lab2_autotest\bin\Debug\net8.0\nunit.engine.api.dll
@@ -165,3 +160,7 @@ C:\Users\asusv\source\repos\lab2_autotest\lab2_autotest\bin\Debug\net8.0\ru\Micr
 C:\Users\asusv\source\repos\lab2_autotest\lab2_autotest\bin\Debug\net8.0\tr\Microsoft.Testing.Extensions.MSBuild.resources.dll
 C:\Users\asusv\source\repos\lab2_autotest\lab2_autotest\bin\Debug\net8.0\zh-Hans\Microsoft.Testing.Extensions.MSBuild.resources.dll
 C:\Users\asusv\source\repos\lab2_autotest\lab2_autotest\bin\Debug\net8.0\zh-Hant\Microsoft.Testing.Extensions.MSBuild.resources.dll
+C:\Users\asusv\source\repos\lab2_autotest\lab2_autotest\bin\Debug\net8.0\Allure.Commons.dll
+C:\Users\asusv\source\repos\lab2_autotest\lab2_autotest\bin\Debug\net8.0\AspectInjector.Broker.dll
+C:\Users\asusv\source\repos\lab2_autotest\lab2_autotest\bin\Debug\net8.0\MimeTypesMap.dll
+C:\Users\asusv\source\repos\lab2_autotest\lab2_autotest\bin\Debug\net8.0\NUnit.Allure.dll

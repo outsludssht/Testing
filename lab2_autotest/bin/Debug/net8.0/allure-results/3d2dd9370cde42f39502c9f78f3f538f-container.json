@@ -1,0 +1,44 @@
+{
+  "uuid": "0ccb0f34-9ed7-4449-844a-7063e3bb4d0d-tc-0-1000",
+  "name": "lab2_autotest.Tests.NavigationTests.VerifyContactForm",
+  "children": [
+    "a5bb0b7b-413d-4a3e-996b-a08957df8b73-tr-0-1006"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1747234717001,
+      "stop": 1747234717001
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1747234717001,
+      "stop": 1747234717001
+    }
+  ],
+  "links": [],
+  "start": 1747234708246,
+  "stop": 1747234717009
+}
