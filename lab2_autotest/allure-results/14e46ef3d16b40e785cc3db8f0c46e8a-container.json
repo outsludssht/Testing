@@ -1,0 +1,44 @@
+{
+  "uuid": "23fef545-e69c-40f0-85e2-38f7862d3f8d-tc-0-1000",
+  "name": "lab2_autotest.Tests.NavigationTests.VerifySearchFunctionality(\"faculty\",\"https://en.ehu.lt/?s=faculty\")",
+  "children": [
+    "2485e5b3-3ab1-460f-82db-6c072169d5d2-tr-0-1003"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1747387008954,
+      "stop": 1747387008954
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1747387008954,
+      "stop": 1747387008954
+    }
+  ],
+  "links": [],
+  "start": 1747386986688,
+  "stop": 1747387008958
+}

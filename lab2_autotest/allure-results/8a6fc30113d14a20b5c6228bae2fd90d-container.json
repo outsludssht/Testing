@@ -1,0 +1,44 @@
+{
+  "uuid": "0d377775-2ce6-4a97-a2ac-228ef5853504-tc-0-1000",
+  "name": "lab2_autotest.Tests.NavigationTests.VerifySearchFunctionality(\"study programs\",\"https://en.ehu.lt/?s=study+programs\")",
+  "children": [
+    "30c6dff5-d806-4c8a-ae3f-8f46844b0971-tr-0-1002"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1747386724711,
+      "stop": 1747386724711
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1747386724711,
+      "stop": 1747386724711
+    }
+  ],
+  "links": [],
+  "start": 1747386686475,
+  "stop": 1747386724713
+}

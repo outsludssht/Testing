@@ -1,6 +1,0 @@
-"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
-"This test should be skipped.","3301","VerifyLanguage","","Wed May 14 17:58:28 EEST 2025","broken","Wed May 14 17:58:31 EEST 2025","","Navigation Tests","NavigationTests","VerifyLanguage"
-"This test should fail.","23557","VerifySearchFunctionality(""study programs"",""https://en.ehu.lt/?s=study+programs"")","","Wed May 14 17:58:28 EEST 2025","failed","Wed May 14 17:58:51 EEST 2025","","Navigation Tests","NavigationTests","VerifySearchFunctionality"
-"This test should pass.","8754","VerifyContactForm","","Wed May 14 17:58:28 EEST 2025","passed","Wed May 14 17:58:37 EEST 2025","","Navigation Tests","NavigationTests","VerifyContactForm"
-"This test should pass.","23203","VerifyNavigationToAboutPage","","Wed May 14 17:58:28 EEST 2025","passed","Wed May 14 17:58:51 EEST 2025","","Navigation Tests","NavigationTests","VerifyNavigationToAboutPage"
-"This test should fail.","24841","VerifySearchFunctionality(""faculty"",""https://en.ehu.lt/?s=faculty"")","","Wed May 14 17:58:28 EEST 2025","failed","Wed May 14 17:58:53 EEST 2025","","Navigation Tests","NavigationTests","VerifySearchFunctionality"

@@ -1,0 +1,99 @@
+{
+  "uuid": "89573a4c-2e5e-40b1-9290-0f303c2f37bb-tr-0-1003",
+  "historyId": "lab2_autotest.Tests.NavigationTests.VerifySearchFunctionality(\"faculty\",\"https://en.ehu.lt/?s=faculty\")",
+  "fullName": "lab2_autotest.Tests.NavigationTests.VerifySearchFunctionality(\"faculty\",\"https://en.ehu.lt/?s=faculty\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NUnit.Fw.ParallelWorker#4"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-ID4PO4S9"
+    },
+    {
+      "name": "package",
+      "value": "lab2_autotest.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "VerifySearchFunctionality"
+    },
+    {
+      "name": "testClass",
+      "value": "NavigationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Search"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "suite",
+      "value": "Navigation Tests"
+    }
+  ],
+  "links": [],
+  "name": "VerifySearchFunctionality(\"faculty\",\"https://en.ehu.lt/?s=faculty\")",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Assert.That(WebDriverSingleton.Driver.Url, Is.EqualTo(Urls.LanguageLT))\r\n  Expected string length 18 but was 28. Strings differ at index 8.\r\n  Expected: \"https://lt.ehu.lt/\"\r\n  But was:  \"https://en.ehu.lt/?s=faculty\"\r\n  -------------------^\r\n",
+    "trace": "   at lab2_autotest.Tests.NavigationTests.VerifySearchFunctionality(String query, String expectedUrl) in C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\Tests\\Tests.cs:line 43\r\n"
+  },
+  "stage": "finished",
+  "description": "This test should fail.",
+  "steps": [
+    {
+      "name": "VerifySearchFunctionality(\"faculty\",\"https://en.ehu.lt/?s=faculty\")",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Assert.That(WebDriverSingleton.Driver.Url, Is.EqualTo(Urls.LanguageLT))\r\n  Expected string length 18 but was 28. Strings differ at index 8.\r\n  Expected: \"https://lt.ehu.lt/\"\r\n  But was:  \"https://en.ehu.lt/?s=faculty\"\r\n  -------------------^\r\n",
+        "trace": "   at lab2_autotest.Tests.NavigationTests.VerifySearchFunctionality(String query, String expectedUrl) in C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\Tests\\Tests.cs:line 43\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Custom Message",
+          "source": "8cc52cbe725c401b959f99b53e1ec2a2-attachment.txt",
+          "type": "text/plain"
+        },
+        {
+          "name": "Screenshot",
+          "source": "d0d806f1b9be40b1b13e75be7a9bc70c-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "08677fd247094915b13acb0fe7956adf-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1747386686477,
+      "stop": 1747386719759
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "faculty"
+    },
+    {
+      "name": "Param #1",
+      "value": "https://en.ehu.lt/?s=faculty"
+    }
+  ],
+  "start": 1747386686477,
+  "stop": 1747386719760
+}

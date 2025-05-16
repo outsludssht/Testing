@@ -1,0 +1,83 @@
+{
+  "uuid": "b4b2d5cd-1e7a-4d59-9321-73e2cddcca19-tr-0-1006",
+  "historyId": "lab2_autotest.Tests.NavigationTests.VerifyContactForm",
+  "fullName": "lab2_autotest.Tests.NavigationTests.VerifyContactForm",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NUnit.Fw.ParallelWorker#8"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-ID4PO4S9"
+    },
+    {
+      "name": "package",
+      "value": "lab2_autotest.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "VerifyContactForm"
+    },
+    {
+      "name": "testClass",
+      "value": "NavigationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Content"
+    },
+    {
+      "name": "severity",
+      "value": "normal"
+    },
+    {
+      "name": "suite",
+      "value": "Navigation Tests"
+    }
+  ],
+  "links": [],
+  "name": "VerifyContactForm",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "VerifyContactForm"
+  },
+  "stage": "finished",
+  "description": "This test should pass.",
+  "steps": [
+    {
+      "name": "VerifyContactForm",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": ""
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Custom Message",
+          "source": "1699330ac7764889a401171f9364fde9-attachment.txt",
+          "type": "text/plain"
+        },
+        {
+          "name": "Console Output",
+          "source": "9e9695010c194635b85b4402412a830c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1747386986690,
+      "stop": 1747386999546
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1747386986689,
+  "stop": 1747386999546
+}

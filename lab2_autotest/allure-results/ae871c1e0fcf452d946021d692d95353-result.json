@@ -1,0 +1,85 @@
+{
+  "uuid": "23317191-5afd-4f0b-b61a-9901ab8cbf0a-tr-0-1005",
+  "historyId": "lab2_autotest.Tests.NavigationTests.VerifyLanguage",
+  "fullName": "lab2_autotest.Tests.NavigationTests.VerifyLanguage",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NUnit.Fw.ParallelWorker#5"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-ID4PO4S9"
+    },
+    {
+      "name": "package",
+      "value": "lab2_autotest.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "VerifyLanguage"
+    },
+    {
+      "name": "testClass",
+      "value": "NavigationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Localization"
+    },
+    {
+      "name": "severity",
+      "value": "minor"
+    },
+    {
+      "name": "suite",
+      "value": "Navigation Tests"
+    }
+  ],
+  "links": [],
+  "name": "VerifyLanguage",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "This test is intentionally skipped.",
+    "trace": "   at lab2_autotest.Tests.NavigationTests.VerifyLanguage() in C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\Tests\\Tests.cs:line 52\r\n"
+  },
+  "stage": "finished",
+  "description": "This test should be skipped.",
+  "steps": [
+    {
+      "name": "VerifyLanguage",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "This test is intentionally skipped.",
+        "trace": "   at lab2_autotest.Tests.NavigationTests.VerifyLanguage() in C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\Tests\\Tests.cs:line 52\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Custom Message",
+          "source": "952a85655ae0466d981300694a80f0bc-attachment.txt",
+          "type": "text/plain"
+        },
+        {
+          "name": "Console Output",
+          "source": "21728133d2dc44c194e813d9c5d718c1-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1747386986690,
+      "stop": 1747386995196
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1747386986689,
+  "stop": 1747386995205
+}

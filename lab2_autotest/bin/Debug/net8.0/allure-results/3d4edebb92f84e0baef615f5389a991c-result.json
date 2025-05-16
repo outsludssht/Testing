@@ -1,0 +1,99 @@
+{
+  "uuid": "6d2fdbd6-3de4-4ef4-9011-f337ff1f66a8-tr-0-1002",
+  "historyId": "lab2_autotest.Tests.NavigationTests.VerifySearchFunctionality(\"study programs\",\"https://en.ehu.lt/?s=study+programs\")",
+  "fullName": "lab2_autotest.Tests.NavigationTests.VerifySearchFunctionality(\"study programs\",\"https://en.ehu.lt/?s=study+programs\")",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NUnit.Fw.ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-ID4PO4S9"
+    },
+    {
+      "name": "package",
+      "value": "lab2_autotest.Tests"
+    },
+    {
+      "name": "testMethod",
+      "value": "VerifySearchFunctionality"
+    },
+    {
+      "name": "testClass",
+      "value": "NavigationTests"
+    },
+    {
+      "name": "tag",
+      "value": "Search"
+    },
+    {
+      "name": "severity",
+      "value": "critical"
+    },
+    {
+      "name": "suite",
+      "value": "Navigation Tests"
+    }
+  ],
+  "links": [],
+  "name": "VerifySearchFunctionality(\"study programs\",\"https://en.ehu.lt/?s=study+programs\")",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Assert.That(WebDriverSingleton.Driver.Url, Is.EqualTo(Urls.LanguageLT))\r\n  Expected string length 18 but was 35. Strings differ at index 8.\r\n  Expected: \"https://lt.ehu.lt/\"\r\n  But was:  \"https://en.ehu.lt/?s=study+programs\"\r\n  -------------------^\r\n",
+    "trace": "   at lab2_autotest.Tests.NavigationTests.VerifySearchFunctionality(String query, String expectedUrl) in C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\Tests\\Tests.cs:line 43\r\n"
+  },
+  "stage": "finished",
+  "description": "This test should fail.",
+  "steps": [
+    {
+      "name": "VerifySearchFunctionality(\"study programs\",\"https://en.ehu.lt/?s=study+programs\")",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "  Assert.That(WebDriverSingleton.Driver.Url, Is.EqualTo(Urls.LanguageLT))\r\n  Expected string length 18 but was 35. Strings differ at index 8.\r\n  Expected: \"https://lt.ehu.lt/\"\r\n  But was:  \"https://en.ehu.lt/?s=study+programs\"\r\n  -------------------^\r\n",
+        "trace": "   at lab2_autotest.Tests.NavigationTests.VerifySearchFunctionality(String query, String expectedUrl) in C:\\Users\\asusv\\source\\repos\\lab2_autotest\\lab2_autotest\\Tests\\Tests.cs:line 43\r\n"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Custom Message",
+          "source": "f86416e5421c422fb0534b7debf70820-attachment.txt",
+          "type": "text/plain"
+        },
+        {
+          "name": "Screenshot",
+          "source": "c26c715eae4f4169a46c8a8ad8fd64be-attachment.png",
+          "type": "image/png"
+        },
+        {
+          "name": "Console Output",
+          "source": "655bb4d0b7514da1830f09826dea3c8e-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1747386986690,
+      "stop": 1747387009016
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Param #0",
+      "value": "study programs"
+    },
+    {
+      "name": "Param #1",
+      "value": "https://en.ehu.lt/?s=study+programs"
+    }
+  ],
+  "start": 1747386986689,
+  "stop": 1747387009016
+}

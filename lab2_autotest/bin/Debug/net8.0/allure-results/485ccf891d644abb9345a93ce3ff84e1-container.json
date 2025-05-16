@@ -1,0 +1,44 @@
+{
+  "uuid": "e79cfdfc-e0c9-454e-a188-6f171bbeca88-tc-0-1000",
+  "name": "lab2_autotest.Tests.NavigationTests.VerifyLanguage",
+  "children": [
+    "4a1689b6-2fe6-41a1-b83f-39909ade7520-tr-0-1005"
+  ],
+  "befores": [
+    {
+      "name": "Setup",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1747386700273,
+      "stop": 1747386700273
+    }
+  ],
+  "afters": [
+    {
+      "name": "TearDown",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1747386700275,
+      "stop": 1747386700275
+    }
+  ],
+  "links": [],
+  "start": 1747386686474,
+  "stop": 1747386700450
+}
