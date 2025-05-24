@@ -25,7 +25,7 @@ public class TestBase
             .CreateLogger();
     }
 
-    protected Books createdBook; // доступен из всех тестов
+    protected Books createdBook;
 
     [TearDown]
     public async Task Cleanup()
