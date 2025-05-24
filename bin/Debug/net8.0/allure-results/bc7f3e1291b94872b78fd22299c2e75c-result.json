@@ -1,0 +1,57 @@
+{
+  "uuid": "ba44bada-064b-4cb0-99e8-0e3a34572f6d",
+  "historyId": "ba3ae94c06146a22d87bdbacb5c38309",
+  "testCaseId": "6e20dbd2eb02d17cdb370dd1d57764d4",
+  "fullName": "API-tests:BooksTests.GetBookById_ShouldReturnCorrectBook_WhenIdIsValid()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NUnit.Fw.NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-ID4PO4S9"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package"
+    },
+    {
+      "name": "testMethod",
+      "value": "GetBookById_ShouldReturnCorrectBook_WhenIdIsValid"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksTests"
+    },
+    {
+      "name": "tag",
+      "value": "GET"
+    },
+    {
+      "name": "subSuite",
+      "value": "Get Book by ID"
+    },
+    {
+      "name": "suite",
+      "value": "Books API Tests"
+    }
+  ],
+  "links": [],
+  "name": "GetBookById_ShouldReturnCorrectBook_WhenIdIsValid",
+  "status": "passed",
+  "stage": "finished",
+  "description": "Verify fetching a valid book by ID returns correct data",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1748117099071,
+  "stop": 1748117099415
+}

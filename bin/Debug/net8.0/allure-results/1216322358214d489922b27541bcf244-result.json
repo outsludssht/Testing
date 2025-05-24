@@ -1,0 +1,57 @@
+{
+  "uuid": "024a6161-3141-4f9a-aa61-fc2f749e7fca",
+  "historyId": "5cec27d62c12aa41c137327bbe5af1f9",
+  "testCaseId": "db420424b46593a5d1d91b6ca2a0598b",
+  "fullName": "API-tests:BooksTests.DeleteBook_ShouldReturn204AndMakeBookUnavailable()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NUnit.Fw.NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-ID4PO4S9"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package"
+    },
+    {
+      "name": "testMethod",
+      "value": "DeleteBook_ShouldReturn204AndMakeBookUnavailable"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksTests"
+    },
+    {
+      "name": "tag",
+      "value": "DELETE"
+    },
+    {
+      "name": "subSuite",
+      "value": "Delete Book"
+    },
+    {
+      "name": "suite",
+      "value": "Books API Tests"
+    }
+  ],
+  "links": [],
+  "name": "DeleteBook_ShouldReturn204AndMakeBookUnavailable",
+  "status": "passed",
+  "stage": "finished",
+  "description": "Verify successful book deletion and post-deletion retrieval failure",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1748117101498,
+  "stop": 1748117101916
+}

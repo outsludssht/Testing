@@ -1,0 +1,12 @@
+{
+  "uuid": "8bdac0d6-f002-4d23-a26e-e1788a050e7e",
+  "name": "BooksTests.CreateBook_ShouldReturnConflict_OnDuplicate",
+  "children": [
+    "a47cf82d-0340-4ea2-a1fd-ed6751229b7b"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1748117098367,
+  "stop": 1748117098723
+}

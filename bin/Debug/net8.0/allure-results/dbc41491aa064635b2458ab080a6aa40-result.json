@@ -1,0 +1,57 @@
+{
+  "uuid": "8a6d1b6f-04d8-4eee-a8c6-b44c5eabe1b8",
+  "historyId": "cf3e89841ff265a313dad85456674f35",
+  "testCaseId": "c2d953a579fa8a22e67c7f8918302748",
+  "fullName": "API-tests:BooksTests.DeleteBook_ShouldReturn404_WhenIdDoesNotExist()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NUnit.Fw.NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-ID4PO4S9"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package"
+    },
+    {
+      "name": "testMethod",
+      "value": "DeleteBook_ShouldReturn404_WhenIdDoesNotExist"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksTests"
+    },
+    {
+      "name": "tag",
+      "value": "DELETE"
+    },
+    {
+      "name": "subSuite",
+      "value": "Delete Book"
+    },
+    {
+      "name": "suite",
+      "value": "Books API Tests"
+    }
+  ],
+  "links": [],
+  "name": "DeleteBook_ShouldReturn404_WhenIdDoesNotExist",
+  "status": "passed",
+  "stage": "finished",
+  "description": "Verify 404 when deleting non-existent book",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1748117101918,
+  "stop": 1748117102417
+}

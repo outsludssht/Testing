@@ -1,0 +1,57 @@
+{
+  "uuid": "831960e2-3d67-4931-bcc6-d7a90bf6e259",
+  "historyId": "2d9e78d5fd2d3e5ac9822dae306cf56f",
+  "testCaseId": "2bb4fc5bdd7043ca7e665adc8f4ac1b4",
+  "fullName": "API-tests:BooksTests.GetBookById_ShouldReturn400_WhenIdIsInvalid()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NUnit.Fw.NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-ID4PO4S9"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package"
+    },
+    {
+      "name": "testMethod",
+      "value": "GetBookById_ShouldReturn400_WhenIdIsInvalid"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksTests"
+    },
+    {
+      "name": "tag",
+      "value": "GET"
+    },
+    {
+      "name": "subSuite",
+      "value": "Get Book by ID"
+    },
+    {
+      "name": "suite",
+      "value": "Books API Tests"
+    }
+  ],
+  "links": [],
+  "name": "GetBookById_ShouldReturn400_WhenIdIsInvalid",
+  "status": "passed",
+  "stage": "finished",
+  "description": "Verify 400 for invalid book ID format",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1748117099726,
+  "stop": 1748117100060
+}

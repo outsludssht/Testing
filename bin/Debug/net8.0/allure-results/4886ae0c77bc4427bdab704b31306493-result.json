@@ -1,0 +1,57 @@
+{
+  "uuid": "6279ac48-cb13-4abf-bbc0-9e4fb3ae4f61",
+  "historyId": "76d2b104314f9c15ca35d8f985c33b85",
+  "testCaseId": "16a6b4a545212bdbf964a79051796d74",
+  "fullName": "API-tests:BooksTests.GetBookById_ShouldReturn404_WhenIdDoesNotExist()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NUnit.Fw.NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-ID4PO4S9"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package"
+    },
+    {
+      "name": "testMethod",
+      "value": "GetBookById_ShouldReturn404_WhenIdDoesNotExist"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksTests"
+    },
+    {
+      "name": "tag",
+      "value": "GET"
+    },
+    {
+      "name": "subSuite",
+      "value": "Get Book by ID"
+    },
+    {
+      "name": "suite",
+      "value": "Books API Tests"
+    }
+  ],
+  "links": [],
+  "name": "GetBookById_ShouldReturn404_WhenIdDoesNotExist",
+  "status": "passed",
+  "stage": "finished",
+  "description": "Verify 404 for non-existent book ID",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1748117099418,
+  "stop": 1748117099724
+}

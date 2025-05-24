@@ -1,0 +1,57 @@
+{
+  "uuid": "6112754b-d7f0-4b38-8052-a3e18ea1c254",
+  "historyId": "98c5db15f04c0aeee106dbf3bb9802df",
+  "testCaseId": "7237c9766c4b99d0c7687334d91c04fb",
+  "fullName": "API-tests:BooksTests.DeleteBook_ShouldReturn400_WhenIdIsInvalid()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NUnit.Fw.NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-ID4PO4S9"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package"
+    },
+    {
+      "name": "testMethod",
+      "value": "DeleteBook_ShouldReturn400_WhenIdIsInvalid"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksTests"
+    },
+    {
+      "name": "tag",
+      "value": "DELETE"
+    },
+    {
+      "name": "subSuite",
+      "value": "Delete Book"
+    },
+    {
+      "name": "suite",
+      "value": "Books API Tests"
+    }
+  ],
+  "links": [],
+  "name": "DeleteBook_ShouldReturn400_WhenIdIsInvalid",
+  "status": "passed",
+  "stage": "finished",
+  "description": "Verify 400 when deleting with invalid book ID",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1748117102421,
+  "stop": 1748117102731
+}

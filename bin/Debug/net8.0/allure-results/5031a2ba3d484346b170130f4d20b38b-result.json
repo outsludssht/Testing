@@ -1,0 +1,57 @@
+{
+  "uuid": "1b35d798-102a-4c78-b133-1de7be50a10d",
+  "historyId": "b291baf93045574b247ad80e6fd7b0d6",
+  "testCaseId": "99ded3b5379482a77142b9934601a5a1",
+  "fullName": "API-tests:BooksTests.UpdateBook_ShouldReturn204AndReflectChanges()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NUnit.Fw.NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-ID4PO4S9"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package"
+    },
+    {
+      "name": "testMethod",
+      "value": "UpdateBook_ShouldReturn204AndReflectChanges"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksTests"
+    },
+    {
+      "name": "tag",
+      "value": "PUT"
+    },
+    {
+      "name": "subSuite",
+      "value": "Update Book"
+    },
+    {
+      "name": "suite",
+      "value": "Books API Tests"
+    }
+  ],
+  "links": [],
+  "name": "UpdateBook_ShouldReturn204AndReflectChanges",
+  "status": "passed",
+  "stage": "finished",
+  "description": "Verify successful book update and data changes",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1748117100063,
+  "stop": 1748117100451
+}

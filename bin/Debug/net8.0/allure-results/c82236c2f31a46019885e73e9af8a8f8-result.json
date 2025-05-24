@@ -1,0 +1,57 @@
+{
+  "uuid": "a47cf82d-0340-4ea2-a1fd-ed6751229b7b",
+  "historyId": "22cc9544d4c1d36ae86d0882a380f2a1",
+  "testCaseId": "316db5687b3953010d85a1728800354f",
+  "fullName": "API-tests:BooksTests.CreateBook_ShouldReturnConflict_OnDuplicate()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NUnit.Fw.NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-ID4PO4S9"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package"
+    },
+    {
+      "name": "testMethod",
+      "value": "CreateBook_ShouldReturnConflict_OnDuplicate"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksTests"
+    },
+    {
+      "name": "tag",
+      "value": "POST"
+    },
+    {
+      "name": "subSuite",
+      "value": "Create Book"
+    },
+    {
+      "name": "suite",
+      "value": "Books API Tests"
+    }
+  ],
+  "links": [],
+  "name": "CreateBook_ShouldReturnConflict_OnDuplicate",
+  "status": "passed",
+  "stage": "finished",
+  "description": "Verify duplicate book creation handling",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1748117098367,
+  "stop": 1748117098721
+}

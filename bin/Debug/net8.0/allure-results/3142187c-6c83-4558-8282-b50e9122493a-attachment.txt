@@ -1,0 +1,14 @@
+[23:04:57 INF] Creating a new book
+[23:04:58 INF] Response: Created - {"id":"ce136735-e764-4507-ad5b-5e3c90389dfd","title":"Test Book","author":"Author 1","isbn":"111-f1553a1a-3","publishedDate":"2025-05-24T20:04:57Z"}
+     Warning:
+     The component "Fluent Assertions" is governed by the rules defined in the Xceed License Agreement and
+     the Xceed Fluent Assertions Community License. You may use Fluent Assertions free of charge for
+     non-commercial use only. An active subscription is required to use Fluent Assertions for commercial use.
+
+     Please contact Xceed Sales mailto:sales@xceed.com to acquire a subscription at a very low cost.
+
+     A paid commercial license supports the development and continued increasing support of
+     Fluent Assertions users under both commercial and community licenses. Help us
+     keep Fluent Assertions at the forefront of unit testing.
+
+     For more information, visit https://xceed.com/products/unit-testing/fluent-assertions/

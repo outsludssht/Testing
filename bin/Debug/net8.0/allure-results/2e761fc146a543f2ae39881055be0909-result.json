@@ -1,0 +1,57 @@
+{
+  "uuid": "bc8c7fd8-133e-49c4-a172-2cbd65a64039",
+  "historyId": "808baabe4288982980e14e719fb722ed",
+  "testCaseId": "449d773665804c1ce6761de381aa93b1",
+  "fullName": "API-tests:BooksTests.UpdateBook_ShouldReturn400_WhenIdIsInvalid()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NUnit.Fw.NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-ID4PO4S9"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package"
+    },
+    {
+      "name": "testMethod",
+      "value": "UpdateBook_ShouldReturn400_WhenIdIsInvalid"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksTests"
+    },
+    {
+      "name": "tag",
+      "value": "PUT"
+    },
+    {
+      "name": "subSuite",
+      "value": "Update Book"
+    },
+    {
+      "name": "suite",
+      "value": "Books API Tests"
+    }
+  ],
+  "links": [],
+  "name": "UpdateBook_ShouldReturn400_WhenIdIsInvalid",
+  "status": "passed",
+  "stage": "finished",
+  "description": "Verify 400 for invalid book ID during update",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1748117101077,
+  "stop": 1748117101496
+}

@@ -1,0 +1,12 @@
+{
+  "uuid": "25561ee3-cf3d-42b6-a84b-751566549083",
+  "name": "BooksTests.DeleteBook_ShouldReturn204AndMakeBookUnavailable",
+  "children": [
+    "024a6161-3141-4f9a-aa61-fc2f749e7fca"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1748117101498,
+  "stop": 1748117101917
+}

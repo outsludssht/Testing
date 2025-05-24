@@ -1,0 +1,12 @@
+{
+  "uuid": "dfb47648-4b84-4420-9028-7c1e7a8311fa",
+  "name": "BooksTests.DeleteBook_ShouldReturn400_WhenIdIsInvalid",
+  "children": [
+    "6112754b-d7f0-4b38-8052-a3e18ea1c254"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1748117102421,
+  "stop": 1748117102735
+}

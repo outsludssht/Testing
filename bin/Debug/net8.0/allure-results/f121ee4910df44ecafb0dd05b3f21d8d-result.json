@@ -1,0 +1,57 @@
+{
+  "uuid": "d1441831-899f-43b7-92c0-2b7ad2ce038c",
+  "historyId": "c75d0cf86984b33ebd21483995a65c82",
+  "testCaseId": "2e2dcbd8950fc8e2d1a2e0155f8eafbf",
+  "fullName": "API-tests:BooksTests.GetAllBooks_ShouldReturnListWithValidBooks()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NUnit.Fw.NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-ID4PO4S9"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package"
+    },
+    {
+      "name": "testMethod",
+      "value": "GetAllBooks_ShouldReturnListWithValidBooks"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksTests"
+    },
+    {
+      "name": "tag",
+      "value": "GET"
+    },
+    {
+      "name": "subSuite",
+      "value": "Get All Books"
+    },
+    {
+      "name": "suite",
+      "value": "Books API Tests"
+    }
+  ],
+  "links": [],
+  "name": "GetAllBooks_ShouldReturnListWithValidBooks",
+  "status": "passed",
+  "stage": "finished",
+  "description": "Verify the API returns a list of all books with required fields",
+  "steps": [],
+  "attachments": [],
+  "parameters": [],
+  "start": 1748117098725,
+  "stop": 1748117099068
+}

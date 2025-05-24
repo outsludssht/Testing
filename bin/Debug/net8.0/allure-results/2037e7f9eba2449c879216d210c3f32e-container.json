@@ -1,0 +1,12 @@
+{
+  "uuid": "b966b70d-7fc7-49b8-971e-0f60c26adf7a",
+  "name": "BooksTests.UpdateBook_ShouldReturn400_WhenIdIsInvalid",
+  "children": [
+    "bc8c7fd8-133e-49c4-a172-2cbd65a64039"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1748117101077,
+  "stop": 1748117101497
+}

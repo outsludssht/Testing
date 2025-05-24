@@ -1,0 +1,63 @@
+{
+  "uuid": "ae0555db-0a44-43d8-9e90-8b14b25b8dd9",
+  "historyId": "211881ceb358e5d3cb13a0f7b3783ebf",
+  "testCaseId": "4086c00b9bd2c52ae16d55e34250359d",
+  "fullName": "API-tests:BooksTests.CreateBook_ShouldReturn201AndCorrectData()",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NUnit.Fw.NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-ID4PO4S9"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package"
+    },
+    {
+      "name": "testMethod",
+      "value": "CreateBook_ShouldReturn201AndCorrectData"
+    },
+    {
+      "name": "testClass",
+      "value": "BooksTests"
+    },
+    {
+      "name": "tag",
+      "value": "POST"
+    },
+    {
+      "name": "subSuite",
+      "value": "Create Book"
+    },
+    {
+      "name": "suite",
+      "value": "Books API Tests"
+    }
+  ],
+  "links": [],
+  "name": "CreateBook_ShouldReturn201AndCorrectData",
+  "status": "passed",
+  "stage": "finished",
+  "description": "Verify that a valid book is successfully created",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "3142187c-6c83-4558-8282-b50e9122493a-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [],
+  "start": 1748117097305,
+  "stop": 1748117098322
+}
